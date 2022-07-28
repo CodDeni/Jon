@@ -1,11 +1,16 @@
 body{text-align: center;
-
+     background-image: url("img/garf1.jpg");
+     background-repeat:no-repeat;
+     background-position:right bottom;
+     background-size: 180px;
 }
+
 p{
   font-size: 100%;
   font-weight: bold;
   font-family:  Georgia, serif;
   color: #8E4619;
+  line-height: 20px;
 }
 
 h1{
@@ -18,6 +23,36 @@ h2{
   font-family: verdana,sans-serif;
   color: #E2862F;
 }
-ul{
+li{
   color: #E3682B;
+  font-family: georgea;
+  font-size: 15px;
+  list-style-type: none;
 }
+.logo{ text-align: left; }
+.nav-link{text-align: right;}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #CA6424;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: underline;
+  font-size: 30px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #E2862F;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  align-items: left;
