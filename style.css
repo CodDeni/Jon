@@ -37,7 +37,12 @@ li{
   background-color: #CA6424;
   overflow: hidden;
 }
+blockquote{ font-style: italic;
 
+}
+.who{
+  font-style: normal;
+}
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
