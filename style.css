@@ -61,4 +61,11 @@ blockquote{ font-style: italic;
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  align-items: left;
+  align-items: left;}
+
+.cta{
+  font-weight: bold;
+}
+  .footer{
+    font-size: 12px;
+  }
